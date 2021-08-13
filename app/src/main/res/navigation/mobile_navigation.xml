@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/navigation_home">
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.testappplication4.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_favorites"
+        android:name="com.example.testappplication4.ui.favorites.FavoritesFragment"
+        android:label="Favorites"
+        tools:layout="@layout/fragment_favourites" />
+
+    <fragment
+        android:id="@+id/dog_details"
+        android:name="com.example.testappplication4.ui.DogDetails"
+        android:label="Dog"
+        tools:layout="@layout/fragment_dog_details"/>
+
+    <fragment
+        android:id="@+id/navigation_upload"
+        android:name="com.example.testappplication4.ui.UploadImage"
+        android:label="Upload"
+        tools:layout="@layout/fragment_upload_image"/>
+
+    <fragment
+        android:id="@+id/navigation_voting"
+        android:name="com.example.testappplication4.ui.VotePage"
+        android:label="Vote"
+        tools:layout="@layout/fragment_vote_page" />
+
+</navigation>
